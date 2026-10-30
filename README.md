@@ -1,7 +1,7 @@
 # LifeBridge Smart Organ Transplant System
 
 ## Team ID
-SOA-26-27-S6-T04
+SOA-26-27-S6-T03
 
 ## Team Members
 
@@ -12,7 +12,7 @@ SOA-26-27-S6-T04
 | 3 | V. Sraavya | 2420030584 |
 
 ## Supervisor
-Dr. Venkateswari Ketineni
+Venkateswari Ketineni
 
 ## Abstract
 
