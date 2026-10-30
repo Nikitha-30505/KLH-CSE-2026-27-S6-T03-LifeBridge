@@ -1,0 +1,823 @@
+{
+  "dataset": "LifeBridge Smart Transplant System anonymized fixtures",
+  "generatedFor": "download",
+  "users": [
+    {
+      "id": "usr-admin-001",
+      "name": "Maya Chen",
+      "email": "maya.chen@lifebridge.demo",
+      "role": "System Administrator",
+      "organization": "LifeBridge Network",
+      "status": "Active",
+      "lastActive": "2026-09-22T09:42:00Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-coord-014",
+      "name": "Jordan Williams",
+      "email": "jordan.williams@lifebridge.demo",
+      "role": "Transplant Coordinator",
+      "organization": "Pacific Northwest Organ Alliance",
+      "status": "Active",
+      "lastActive": "2026-09-22T09:31:00Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-hospital-002",
+      "name": "Dr. Priya Rao",
+      "email": "priya.rao@lifebridge.demo",
+      "role": "Hospital Director",
+      "organization": "Northstar Medical Center",
+      "status": "Active",
+      "lastActive": "2026-09-22T08:55:00Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-donor-020",
+      "name": "Avery Bennett",
+      "email": "avery.bennett@lifebridge.demo",
+      "role": "Donor Services",
+      "organization": "LifeBridge Network",
+      "status": "Pending verification",
+      "lastActive": "2026-09-21T16:20:00Z",
+      "mfaEnabled": false
+    },
+    {
+      "id": "usr-advocate-003",
+      "name": "Noah Williams",
+      "email": "noah.williams@lifebridge.demo",
+      "role": "Recipient Advocate",
+      "organization": "Harborview Transplant Institute",
+      "status": "Active",
+      "lastActive": "2026-09-21T14:05:00Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-coord-021",
+      "name": "Sofia Martinez",
+      "email": "sofia.martinez@lifebridge.demo",
+      "role": "Transplant Coordinator",
+      "organization": "Harborview Transplant Institute",
+      "status": "Active",
+      "lastActive": "2026-09-22T07:58:00Z",
+      "mfaEnabled": true
+    },
+    {
+      "id": "usr-hospital-008",
+      "name": "Dr. Ethan Brooks",
+      "email": "ethan.brooks@lifebridge.demo",
+      "role": "Hospital Director",
+      "organization": "Starlight Children's Hospital",
+      "status": "Invited",
+      "lastActive": "Never",
+      "mfaEnabled": false
+    },
+    {
+      "id": "usr-admin-004",
+      "name": "Liam Osei",
+      "email": "liam.osei@lifebridge.demo",
+      "role": "System Administrator",
+      "organization": "LifeBridge Network",
+      "status": "Suspended",
+      "lastActive": "2026-08-31T11:13:00Z",
+      "mfaEnabled": true
+    }
+  ],
+  "donors": [
+    {
+      "id": "don-1001",
+      "displayName": "Donor A-104",
+      "bloodType": "O-",
+      "age": 29,
+      "organs": [
+        "kidney",
+        "liver",
+        "heart"
+      ],
+      "status": "Medically cleared",
+      "registeredAt": "2026-09-22T07:15:00Z",
+      "hospital": "Northstar Medical Center",
+      "consent": "Full consent",
+      "riskFlags": []
+    },
+    {
+      "id": "don-1002",
+      "displayName": "Donor B-220",
+      "bloodType": "A+",
+      "age": 46,
+      "organs": [
+        "kidney",
+        "liver"
+      ],
+      "status": "Medically cleared",
+      "registeredAt": "2026-09-21T18:02:00Z",
+      "hospital": "Harborview Transplant Institute",
+      "consent": "Full consent",
+      "riskFlags": [
+        "CMV positive"
+      ]
+    },
+    {
+      "id": "don-1003",
+      "displayName": "Donor C-089",
+      "bloodType": "AB+",
+      "age": 38,
+      "organs": [
+        "heart",
+        "lungs"
+      ],
+      "status": "In review",
+      "registeredAt": "2026-09-21T13:47:00Z",
+      "hospital": "Summit Regional Hospital",
+      "consent": "Family authorization",
+      "riskFlags": [
+        "Tobacco history"
+      ]
+    },
+    {
+      "id": "don-1004",
+      "displayName": "Donor D-441",
+      "bloodType": "B-",
+      "age": 63,
+      "organs": [
+        "liver",
+        "kidney"
+      ],
+      "status": "Medically cleared",
+      "registeredAt": "2026-09-20T22:10:00Z",
+      "hospital": "Northstar Medical Center",
+      "consent": "Full consent",
+      "riskFlags": [
+        "Elevated donor risk"
+      ]
+    },
+    {
+      "id": "don-1005",
+      "displayName": "Donor E-115",
+      "bloodType": "O+",
+      "age": 17,
+      "organs": [
+        "kidney",
+        "pancreas"
+      ],
+      "status": "Medically cleared",
+      "registeredAt": "2026-09-20T20:25:00Z",
+      "hospital": "Starlight Children's Hospital",
+      "consent": "Guardian + donor",
+      "riskFlags": []
+    },
+    {
+      "id": "don-1006",
+      "displayName": "Donor F-907",
+      "bloodType": "A-",
+      "age": 52,
+      "organs": [
+        "kidney",
+        "liver"
+      ],
+      "status": "Pending labs",
+      "registeredAt": "2026-09-20T10:12:00Z",
+      "hospital": "Cedar Grove University Hospital",
+      "consent": "Full consent",
+      "riskFlags": [
+        "Pending infectious disease panel"
+      ]
+    },
+    {
+      "id": "don-1007",
+      "displayName": "Donor G-332",
+      "bloodType": "O+",
+      "age": 8,
+      "organs": [
+        "kidney",
+        "liver"
+      ],
+      "status": "Medically cleared",
+      "registeredAt": "2026-09-19T14:30:00Z",
+      "hospital": "Starlight Children's Hospital",
+      "consent": "Guardian + donor",
+      "riskFlags": []
+    },
+    {
+      "id": "don-1008",
+      "displayName": "Donor H-710",
+      "bloodType": "B+",
+      "age": 71,
+      "organs": [
+        "liver"
+      ],
+      "status": "Declined",
+      "registeredAt": "2026-09-18T09:41:00Z",
+      "hospital": "Summit Regional Hospital",
+      "consent": "Withdrew consent",
+      "riskFlags": [
+        "Allocation hold"
+      ]
+    }
+  ],
+  "recipients": [
+    {
+      "id": "rec-2001",
+      "displayName": "Recipient R-310",
+      "bloodType": "O+",
+      "age": 41,
+      "organNeeded": "kidney",
+      "urgency": "Critical",
+      "status": "Active waitlist",
+      "hospital": "Harborview Transplant Institute",
+      "waitDays": 1186,
+      "pra": 94,
+      "hlaSummary": "A2, A24 · B7, B44 · DR4, DR15",
+      "medicalCondition": "End-stage renal disease; dialysis dependent"
+    },
+    {
+      "id": "rec-2002",
+      "displayName": "Recipient R-882",
+      "bloodType": "A+",
+      "age": 9,
+      "organNeeded": "liver",
+      "urgency": "High",
+      "status": "Active waitlist",
+      "hospital": "Starlight Children's Hospital",
+      "waitDays": 214,
+      "pra": 12,
+      "hlaSummary": "A1, A3 · B8, B35 · DR3, DR7",
+      "medicalCondition": "Biliary atresia with portal hypertension"
+    },
+    {
+      "id": "rec-2003",
+      "displayName": "Recipient R-117",
+      "bloodType": "B-",
+      "age": 58,
+      "organNeeded": "heart",
+      "urgency": "Critical",
+      "status": "Admitted",
+      "hospital": "Northstar Medical Center",
+      "waitDays": 82,
+      "pra": 38,
+      "hlaSummary": "A2, A26 · B18, B51 · DR11, DR13",
+      "medicalCondition": "Dilated cardiomyopathy; LVAD bridge"
+    },
+    {
+      "id": "rec-2004",
+      "displayName": "Recipient R-438",
+      "bloodType": "AB+",
+      "age": 36,
+      "organNeeded": "lungs",
+      "urgency": "High",
+      "status": "Active waitlist",
+      "hospital": "Cedar Grove University Hospital",
+      "waitDays": 403,
+      "pra": 66,
+      "hlaSummary": "A2, A24 · B35, B60 · DR4, DR8",
+      "medicalCondition": "Cystic fibrosis with progressive respiratory failure"
+    },
+    {
+      "id": "rec-2005",
+      "displayName": "Recipient R-529",
+      "bloodType": "O-",
+      "age": 67,
+      "organNeeded": "liver",
+      "urgency": "Medium",
+      "status": "Active waitlist",
+      "hospital": "Summit Regional Hospital",
+      "waitDays": 690,
+      "pra": 4,
+      "hlaSummary": "A11, A30 · B13, B57 · DR7, DR15",
+      "medicalCondition": "Decompensated cirrhosis; MELD 29"
+    },
+    {
+      "id": "rec-2006",
+      "displayName": "Recipient R-764",
+      "bloodType": "A-",
+      "age": 24,
+      "organNeeded": "kidney",
+      "urgency": "High",
+      "status": "Active waitlist",
+      "hospital": "Northstar Medical Center",
+      "waitDays": 544,
+      "pra": 81,
+      "hlaSummary": "A2, A68 · B7, B62 · DR4, DR13",
+      "medicalCondition": "Congenital nephrotic syndrome; second transplant"
+    },
+    {
+      "id": "rec-2007",
+      "displayName": "Recipient R-611",
+      "bloodType": "B+",
+      "age": 52,
+      "organNeeded": "kidney",
+      "urgency": "Medium",
+      "status": "Temporarily inactive",
+      "hospital": "Harborview Transplant Institute",
+      "waitDays": 961,
+      "pra": 23,
+      "hlaSummary": "A1, A29 · B8, B44 · DR7, DR17",
+      "medicalCondition": "Hypertensive nephrosclerosis"
+    },
+    {
+      "id": "rec-2008",
+      "displayName": "Recipient R-904",
+      "bloodType": "O+",
+      "age": 14,
+      "organNeeded": "pancreas",
+      "urgency": "High",
+      "status": "Active waitlist",
+      "hospital": "Starlight Children's Hospital",
+      "waitDays": 297,
+      "pra": 8,
+      "hlaSummary": "A3, A24 · B7, B35 · DR4, DR11",
+      "medicalCondition": "Type 1 diabetes with severe hypoglycemia"
+    }
+  ],
+  "organs": [
+    {
+      "id": "org-5001",
+      "organType": "kidney",
+      "bloodType": "O-",
+      "donorId": "don-1001",
+      "donorAge": 29,
+      "sourceHospital": "Northstar Medical Center",
+      "status": "Available",
+      "preservationMinutes": 94,
+      "maxPreservationMinutes": 1440,
+      "hlaSummary": "A2, A24 · B7, B44 · DR4, DR15",
+      "infectiousRisk": "Standard",
+      "availableAt": "2026-09-22T08:11:00Z",
+      "destination": "Unassigned"
+    },
+    {
+      "id": "org-5002",
+      "organType": "liver",
+      "bloodType": "A+",
+      "donorId": "don-1002",
+      "donorAge": 46,
+      "sourceHospital": "Harborview Transplant Institute",
+      "status": "Matching",
+      "preservationMinutes": 188,
+      "maxPreservationMinutes": 720,
+      "hlaSummary": "A1, A3 · B8, B35 · DR3, DR7",
+      "infectiousRisk": "CMV positive",
+      "availableAt": "2026-09-22T06:42:00Z",
+      "destination": "Starlight Children's Hospital"
+    },
+    {
+      "id": "org-5003",
+      "organType": "heart",
+      "bloodType": "AB+",
+      "donorId": "don-1003",
+      "donorAge": 38,
+      "sourceHospital": "Summit Regional Hospital",
+      "status": "Available",
+      "preservationMinutes": 42,
+      "maxPreservationMinutes": 360,
+      "hlaSummary": "A2, A26 · B18, B51 · DR11, DR13",
+      "infectiousRisk": "Standard",
+      "availableAt": "2026-09-22T08:54:00Z",
+      "destination": "Unassigned"
+    },
+    {
+      "id": "org-5004",
+      "organType": "liver",
+      "bloodType": "B-",
+      "donorId": "don-1004",
+      "donorAge": 63,
+      "sourceHospital": "Northstar Medical Center",
+      "status": "Allocated",
+      "preservationMinutes": 305,
+      "maxPreservationMinutes": 720,
+      "hlaSummary": "A11, A30 · B13, B57 · DR7, DR15",
+      "infectiousRisk": "Elevated donor risk",
+      "availableAt": "2026-09-21T22:30:00Z",
+      "destination": "Summit Regional Hospital"
+    },
+    {
+      "id": "org-5005",
+      "organType": "kidney",
+      "bloodType": "O+",
+      "donorId": "don-1005",
+      "donorAge": 17,
+      "sourceHospital": "Starlight Children's Hospital",
+      "status": "Available",
+      "preservationMinutes": 374,
+      "maxPreservationMinutes": 1440,
+      "hlaSummary": "A3, A24 · B7, B35 · DR4, DR11",
+      "infectiousRisk": "Standard",
+      "availableAt": "2026-09-22T03:31:00Z",
+      "destination": "Unassigned"
+    },
+    {
+      "id": "org-5006",
+      "organType": "kidney",
+      "bloodType": "A-",
+      "donorId": "don-1006",
+      "donorAge": 52,
+      "sourceHospital": "Cedar Grove University Hospital",
+      "status": "Quality hold",
+      "preservationMinutes": 511,
+      "maxPreservationMinutes": 1440,
+      "hlaSummary": "A2, A68 · B7, B62 · DR4, DR13",
+      "infectiousRisk": "Pending infectious disease panel",
+      "availableAt": "2026-09-21T23:18:00Z",
+      "destination": "Unassigned"
+    },
+    {
+      "id": "org-5007",
+      "organType": "lungs",
+      "bloodType": "AB+",
+      "donorId": "don-1003",
+      "donorAge": 38,
+      "sourceHospital": "Summit Regional Hospital",
+      "status": "Available",
+      "preservationMinutes": 107,
+      "maxPreservationMinutes": 360,
+      "hlaSummary": "A2, A24 · B35, B60 · DR4, DR8",
+      "infectiousRisk": "Tobacco history",
+      "availableAt": "2026-09-22T07:49:00Z",
+      "destination": "Unassigned"
+    },
+    {
+      "id": "org-5008",
+      "organType": "liver",
+      "bloodType": "O+",
+      "donorId": "don-1007",
+      "donorAge": 8,
+      "sourceHospital": "Starlight Children's Hospital",
+      "status": "Expired",
+      "preservationMinutes": 791,
+      "maxPreservationMinutes": 720,
+      "hlaSummary": "A1, A29 · B8, B44 · DR7, DR17",
+      "infectiousRisk": "Standard",
+      "availableAt": "2026-09-21T18:05:00Z",
+      "destination": "Returned to source"
+    },
+    {
+      "id": "org-5009",
+      "organType": "pancreas",
+      "bloodType": "O+",
+      "donorId": "don-1005",
+      "donorAge": 17,
+      "sourceHospital": "Starlight Children's Hospital",
+      "status": "Matching",
+      "preservationMinutes": 250,
+      "maxPreservationMinutes": 720,
+      "hlaSummary": "A3, A24 · B7, B35 · DR4, DR11",
+      "infectiousRisk": "Standard",
+      "availableAt": "2026-09-22T05:35:00Z",
+      "destination": "Starlight Children's Hospital"
+    },
+    {
+      "id": "org-5010",
+      "organType": "kidney",
+      "bloodType": "B-",
+      "donorId": "don-1004",
+      "donorAge": 63,
+      "sourceHospital": "Northstar Medical Center",
+      "status": "Available",
+      "preservationMinutes": 632,
+      "maxPreservationMinutes": 1440,
+      "hlaSummary": "A11, A30 · B13, B57 · DR7, DR15",
+      "infectiousRisk": "Elevated donor risk",
+      "availableAt": "2026-09-21T22:30:00Z",
+      "destination": "Unassigned"
+    }
+  ],
+  "matches": [
+    {
+      "id": "mat-7001",
+      "organId": "org-5001",
+      "organType": "kidney",
+      "recipientId": "rec-2001",
+      "recipientName": "Recipient R-310",
+      "recipientHospital": "Harborview Transplant Institute",
+      "compatibilityScore": 98,
+      "priorityScore": 96,
+      "urgency": "Critical",
+      "status": "Recommended",
+      "bloodTypeMatch": "Exact",
+      "hlaMatch": "6 / 6",
+      "distanceKm": 18,
+      "coldIschemiaRisk": "Low",
+      "createdAt": "2026-09-22T08:29:00Z"
+    },
+    {
+      "id": "mat-7002",
+      "organId": "org-5003",
+      "organType": "heart",
+      "recipientId": "rec-2003",
+      "recipientName": "Recipient R-117",
+      "recipientHospital": "Northstar Medical Center",
+      "compatibilityScore": 94,
+      "priorityScore": 99,
+      "urgency": "Critical",
+      "status": "Recommended",
+      "bloodTypeMatch": "Compatible",
+      "hlaMatch": "5 / 6",
+      "distanceKm": 112,
+      "coldIschemiaRisk": "Moderate",
+      "createdAt": "2026-09-22T09:03:00Z"
+    },
+    {
+      "id": "mat-7003",
+      "organId": "org-5002",
+      "organType": "liver",
+      "recipientId": "rec-2002",
+      "recipientName": "Recipient R-882",
+      "recipientHospital": "Starlight Children's Hospital",
+      "compatibilityScore": 92,
+      "priorityScore": 91,
+      "urgency": "High",
+      "status": "Recommended",
+      "bloodTypeMatch": "Compatible",
+      "hlaMatch": "5 / 6",
+      "distanceKm": 26,
+      "coldIschemiaRisk": "Low",
+      "createdAt": "2026-09-22T07:02:00Z"
+    },
+    {
+      "id": "mat-7004",
+      "organId": "org-5007",
+      "organType": "lungs",
+      "recipientId": "rec-2004",
+      "recipientName": "Recipient R-438",
+      "recipientHospital": "Cedar Grove University Hospital",
+      "compatibilityScore": 89,
+      "priorityScore": 88,
+      "urgency": "High",
+      "status": "Review required",
+      "bloodTypeMatch": "Compatible",
+      "hlaMatch": "4 / 6",
+      "distanceKm": 264,
+      "coldIschemiaRisk": "High",
+      "createdAt": "2026-09-22T08:10:00Z"
+    },
+    {
+      "id": "mat-7005",
+      "organId": "org-5005",
+      "organType": "kidney",
+      "recipientId": "rec-2006",
+      "recipientName": "Recipient R-764",
+      "recipientHospital": "Northstar Medical Center",
+      "compatibilityScore": 86,
+      "priorityScore": 89,
+      "urgency": "High",
+      "status": "Recommended",
+      "bloodTypeMatch": "Compatible",
+      "hlaMatch": "4 / 6",
+      "distanceKm": 15,
+      "coldIschemiaRisk": "Low",
+      "createdAt": "2026-09-22T06:12:00Z"
+    },
+    {
+      "id": "mat-7006",
+      "organId": "org-5009",
+      "organType": "pancreas",
+      "recipientId": "rec-2008",
+      "recipientName": "Recipient R-904",
+      "recipientHospital": "Starlight Children's Hospital",
+      "compatibilityScore": 97,
+      "priorityScore": 90,
+      "urgency": "High",
+      "status": "Recommended",
+      "bloodTypeMatch": "Exact",
+      "hlaMatch": "6 / 6",
+      "distanceKm": 4,
+      "coldIschemiaRisk": "Low",
+      "createdAt": "2026-09-22T06:01:00Z"
+    },
+    {
+      "id": "mat-7007",
+      "organId": "org-5010",
+      "organType": "kidney",
+      "recipientId": "rec-2007",
+      "recipientName": "Recipient R-611",
+      "recipientHospital": "Harborview Transplant Institute",
+      "compatibilityScore": 71,
+      "priorityScore": 67,
+      "urgency": "Medium",
+      "status": "Recipient inactive",
+      "bloodTypeMatch": "Compatible",
+      "hlaMatch": "3 / 6",
+      "distanceKm": 37,
+      "coldIschemiaRisk": "Moderate",
+      "createdAt": "2026-09-21T23:20:00Z"
+    },
+    {
+      "id": "mat-7008",
+      "organId": "org-5006",
+      "organType": "kidney",
+      "recipientId": "rec-2001",
+      "recipientName": "Recipient R-310",
+      "recipientHospital": "Harborview Transplant Institute",
+      "compatibilityScore": 75,
+      "priorityScore": 82,
+      "urgency": "Critical",
+      "status": "Blocked by quality hold",
+      "bloodTypeMatch": "Compatible",
+      "hlaMatch": "4 / 6",
+      "distanceKm": 201,
+      "coldIschemiaRisk": "Moderate",
+      "createdAt": "2026-09-21T20:18:00Z"
+    }
+  ],
+  "notifications": [
+    {
+      "id": "ntf-9001",
+      "title": "Critical match requires review",
+      "message": "Heart ORG-5003 has a 94% match with Recipient R-117. Review the allocation recommendation within 42 minutes.",
+      "type": "Urgent",
+      "createdAt": "2026-09-22T09:04:00Z",
+      "read": false,
+      "audience": "Transplant coordinators"
+    },
+    {
+      "id": "ntf-9002",
+      "title": "Organ preservation window at 50%",
+      "message": "Lungs ORG-5007 have reached 107 of 360 preservation minutes. Transport coordination is recommended.",
+      "type": "Action",
+      "createdAt": "2026-09-22T08:55:00Z",
+      "read": false,
+      "audience": "Hospital logistics"
+    },
+    {
+      "id": "ntf-9003",
+      "title": "New donor registration",
+      "message": "Donor A-104 has been registered by Northstar Medical Center with full consent for three organs.",
+      "type": "Info",
+      "createdAt": "2026-09-22T07:16:00Z",
+      "read": true,
+      "audience": "Donor services"
+    },
+    {
+      "id": "ntf-9004",
+      "title": "Quality hold placed",
+      "message": "Kidney ORG-5006 is awaiting infectious disease panel results. It is excluded from allocation recommendations.",
+      "type": "Warning",
+      "createdAt": "2026-09-21T23:21:00Z",
+      "read": false,
+      "audience": "System administrators"
+    },
+    {
+      "id": "ntf-9005",
+      "title": "Recipient status changed",
+      "message": "Recipient R-611 is temporarily inactive and has been removed from active allocation queues.",
+      "type": "Info",
+      "createdAt": "2026-09-21T23:22:00Z",
+      "read": true,
+      "audience": "Transplant coordinators"
+    },
+    {
+      "id": "ntf-9006",
+      "title": "MFA enrollment due",
+      "message": "Avery Bennett has not completed MFA enrollment. Access remains limited to donor registration review.",
+      "type": "Action",
+      "createdAt": "2026-09-21T16:22:00Z",
+      "read": false,
+      "audience": "System administrators"
+    },
+    {
+      "id": "ntf-9007",
+      "title": "Allocation completed",
+      "message": "Liver ORG-5004 was allocated to Recipient R-529 at Summit Regional Hospital.",
+      "type": "Success",
+      "createdAt": "2026-09-21T22:42:00Z",
+      "read": true,
+      "audience": "All coordinators"
+    },
+    {
+      "id": "ntf-9008",
+      "title": "Organ window expired",
+      "message": "Liver ORG-5008 exceeded its preservation window and was returned to the source hospital.",
+      "type": "Warning",
+      "createdAt": "2026-09-22T06:06:00Z",
+      "read": true,
+      "audience": "Hospital logistics"
+    }
+  ],
+  "activity": [
+    {
+      "id": "act-1",
+      "title": "Match recommendation generated",
+      "detail": "ORG-5003 → Recipient R-117 · 94% compatibility",
+      "timestamp": "8 minutes ago",
+      "kind": "match",
+      "actor": "Matching service"
+    },
+    {
+      "id": "act-2",
+      "title": "Donor registration completed",
+      "detail": "Donor A-104 · Northstar Medical Center",
+      "timestamp": "1 hour ago",
+      "kind": "donor",
+      "actor": "Avery Bennett"
+    },
+    {
+      "id": "act-3",
+      "title": "Allocation confirmed",
+      "detail": "ORG-5004 liver allocated to Recipient R-529",
+      "timestamp": "11 hours ago",
+      "kind": "allocation",
+      "actor": "Jordan Williams"
+    },
+    {
+      "id": "act-4",
+      "title": "Quality hold applied",
+      "detail": "ORG-5006 kidney excluded pending lab review",
+      "timestamp": "10 hours ago",
+      "kind": "warning",
+      "actor": "System rules"
+    },
+    {
+      "id": "act-5",
+      "title": "Recipient status updated",
+      "detail": "Recipient R-611 moved to temporarily inactive",
+      "timestamp": "10 hours ago",
+      "kind": "recipient",
+      "actor": "Sofia Martinez"
+    },
+    {
+      "id": "act-6",
+      "title": "New transplant center connected",
+      "detail": "Cedar Grove University Hospital completed onboarding",
+      "timestamp": "Yesterday",
+      "kind": "system",
+      "actor": "Maya Chen"
+    }
+  ],
+  "summary": {
+    "activeOrgans": 7,
+    "urgentRecipients": 6,
+    "pendingMatches": 6,
+    "allocatedThisMonth": 42,
+    "transplantCenters": 12,
+    "readinessRate": 88.4,
+    "organBreakdown": [
+      {
+        "organType": "kidney",
+        "available": 3,
+        "pending": 1,
+        "total": 4
+      },
+      {
+        "organType": "liver",
+        "available": 0,
+        "pending": 1,
+        "total": 3
+      },
+      {
+        "organType": "heart",
+        "available": 1,
+        "pending": 0,
+        "total": 1
+      },
+      {
+        "organType": "lungs",
+        "available": 1,
+        "pending": 0,
+        "total": 1
+      },
+      {
+        "organType": "pancreas",
+        "available": 0,
+        "pending": 1,
+        "total": 1
+      }
+    ],
+    "weeklyTrend": [
+      {
+        "label": "Sep 16",
+        "matches": 18,
+        "allocations": 5
+      },
+      {
+        "label": "Sep 17",
+        "matches": 24,
+        "allocations": 7
+      },
+      {
+        "label": "Sep 18",
+        "matches": 21,
+        "allocations": 6
+      },
+      {
+        "label": "Sep 19",
+        "matches": 27,
+        "allocations": 8
+      },
+      {
+        "label": "Sep 20",
+        "matches": 25,
+        "allocations": 7
+      },
+      {
+        "label": "Sep 21",
+        "matches": 31,
+        "allocations": 9
+      },
+      {
+        "label": "Sep 22",
+        "matches": 14,
+        "allocations": 4
+      }
+    ]
+  }
+}
